@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = "http://localhost/app-authors/api/authors";
+//const API_URL = "http://localhost/app-authors/api/authors";
+const API_URL = "http://localhost:8081/api/authors";
 
 // GET: 
 const obtenerTodos = async () => {
